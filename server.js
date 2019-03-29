@@ -4,6 +4,9 @@ const   Discord = require('discord.js'),
         CacheService = require('./src/cache/cache'),
         content = require('./src/module/content');
 
+const dotenv = require('dotenv');
+dotenv.config();
+
 // Init Cache in client
 client.cache = new CacheService(10); 
 
