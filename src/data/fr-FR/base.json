@@ -1,0 +1,848 @@
+{
+    "title": "Bienvenue sur la Sélection des personnages",
+    "icon_min": "https://scontent-mrs1-1.cdninstagram.com/vp/af0fabe0f358e7b53fb580468c356c4f/5D2F371D/t51.2885-19/s320x320/42798628_252242302141091_8456267697850679296_n.jpg?_nc_ht=scontent-mrs1-1.cdninstagram.com",
+    "icon_large": "https://www.waven-game.com/build/images/download/logo.454faa0c.png",
+    "desc": "Cette interface vous permet de sélectionner les héros/armes qui vous intéressent et avoir accès aux informations de celle-ci. Vous avez la possibilité de lancer plusieurs interfaces à la fois pour faire des comparaisons, etc.. Si vous rencontrez des problèmes avec le bot envoyez un message privé à @Shoto#7084.",
+    "back-icon": "◀",
+    "id-guild-icon": "558345582834614282",
+    "footer": {
+        "base": "Sélection de personnage | Version Beta",
+        "hero": "Héro",
+        "weapon": "Armes"
+    },
+    "action_icon": {
+        "attack": "⚔",
+        "life": "❤",
+        "pm": "↗",
+        "separator": "\u200B"
+    },
+    "infos": {
+        "mecanisme": {
+            "name": "Mécanisme",
+            "value": "Insensible aux dégâts des sorts.\nInsensible aux états élémentaires.\nNe peut pas repoussé.\nSi un mécanisme identique à celui que vous jouez est déjà en jeu, il est détruit."
+        },
+        "explosion": {
+            "name": "Explosion (Nombre Explosion)",
+            "value": "Une explosion inflige des dégâts aux personnages adverses autour d'elle."
+        },
+        "autour": {
+            "name": "Autour",
+            "value": "Les 8 cases autour de la cible."
+        },
+        "mouille": {
+            "name": "Mouillé",
+            "value": "Etat élémentaire d'eau.\nPermet d'appliquer des effets supplémentaires."
+        },
+        "boueux": {
+            "name": "Boueux",
+            "value": "Etat élémentaire de terre.\nPermet d'appliquer des effets supplémentaires."
+        },
+        "huile": {
+            "name": "Huilé",
+            "value": "Etat élémentaire de feu.\nPermet d'appliquer des effets supplémentaires."
+        },
+        "evente": {
+            "name": "Eventé",
+            "value": "Etat élémentaire d'air.\nPermet d'appliquer des effets supplémentaires."
+        },
+        "coup_de_grace": {
+            "name": "Coup de grâce",
+            "value": "L'effet ce déclenche si la cible meurt."
+        },
+        "ombre_glacee": {
+            "name": "Ombre Glacée",
+            "value": "Votre héros ne peut plus être ciblé par les sorts adverses."
+        },
+        "ame_spectrale": {
+            "name": "Âme Spectrale",
+            "value": "(5 PV, 3PM) Réduit de *1 PA* le coût de vos sorts *Air*. Ne peut pas attaquer."
+        },
+        "adjacent": {
+            "name": "Adjacent",
+            "value": "Les 4 cases adjacentes à la cible."
+        },
+        "mire": {
+            "name": "Mire",
+            "value": "Projectile qui inflige 1 dégâts au prochain adversaire ciblé par un de vos sorts."
+        },
+        "rembobinage": {
+            "name": "Rembobinage",
+            "value": "Effet qui permet de faire revenir un sort en main, une fois par tour s'il n'est pas le premier sort joué du tour."
+        },
+        "rebond": {
+            "name": "Rebond",
+            "value": "Les dégâts en rebond se propagent sur les cases autour de la cible. Si le rebond inflige des dégâts à un autre personnage, la propagation des dégâts continue autour de lui."
+        },
+        "gele": {
+            "name": "Gelé (Dégât)",
+            "value": "Un personnage gelé subit des dégâts quand son propriétaire joue un sort."
+        },
+        "dephasage": {
+            "name": "Déphasage/Déphasé",
+            "value": "Effet qui permet à un personnage de traverser des obstacles.\nInflige 1 dégâts aux personnages traversés."
+        },
+        "vol_de_vie": {
+            "name": "Vol de vie",
+            "value": "Les dégats infligés soigne votre héros."
+        },
+        "nocturien": {
+            "name": "Nocturien",
+            "value": "(1 PV, 1 ATTACK, 4 PM) **Début du tour**: Explose en infligeant autant de dégâts qu'il a d'*AT*."
+        },
+        "assomme": {
+            "name": "Assommé",
+            "value": "Un personnage assommé ne peut pas bouger ni attaquer pour le tour. L'état disparait s'il subit des dégâts."
+        },
+        "piege_rocheux": {
+            "name": "Piège Rocheux",
+            "value": "Inflige 3 dégâts à l'adversaire qui s'arrête dessus."
+        },
+        "assemblage": {
+            "name": "Assemblage",
+            "value": "L'effet se déclenche quand le joueur construit un piège à côté d'un autre de ses pièges."
+        },
+        "agonie": {
+            "name": "Agonie",
+            "value": "L'effet se déclenche si votre héros a moins de 40% de ses *PV*"
+        },
+        "yeux_tatoues": {
+            "name": "Yeux Tatoués",
+            "value": "**AURA**: Soigne le héros de *1 PV* et ajoute *+1 PA* à votre réserve *de PA*.\nLibéré quand le héros subit une attaque."
+        },
+        "aura": {
+            "name": "Aura",
+            "value": "Une aura gravite autour de votre héros.\nElle déclenche un effet et disparait quand elle est libérée."
+        },
+        "craqueleur": {
+            "name": "Bébé Craqueleur",
+            "value": "(6 PV, 1 AT, 2 PM)\n**Bête** niveau 1\n**Lien Bestial**\n**Assomme sa cible si celle-ci est **Boueuse** quand il attaque."
+        },
+        "bouftou": {
+            "name": "Bébé Bouftou",
+            "value": "(4 PV, 1 AT, 3 PM)\n**Bête** niveau 1\n**Lien Bestial**"
+        },
+        "tofu": {
+            "name": "Bébé Tofu",
+            "value": "(2 PV, 1 AT, 5 PM)\n**Bête** niveau 1\n**Inciblable**\n**Lien Bestial**"
+        },
+        "flaqueux": {
+            "name": "Bébé Flaqueux",
+            "value": "(2 PV, 1 AT, 3 PM)\n**Bête** niveau 1\n**Lien Bestial**\nVole *1 PA* à la réserve *de PA* adverse quand il attaque."
+        },
+        "prespic": {
+            "name": "Bébé Prespic",
+            "value": "(4 PV, 1 AT, 3 PM)\n**Bête** niveau 1\n**Lien Bestial**\n**Mort**: Inflige 2 dégâts aux adversaires **Autour** de lui."
+        },
+        "lien_bestial": {
+            "name": "Lien Bestial",
+            "value": "Les dégâts infligés sur votre invocation sont transmis à votre héros"
+        }
+    },
+    "heros": [
+        {
+            "name": "Xelor",
+            "icon": "⌛",
+            "img": "https://www.waven-game.com/build/images/breed/list/picto/7.5b079bd9.png",
+            "desc": "En tant que mages du temps, les Xélors jouent avec ses rouages pour ralentir un ennemi, s’accélérer eux-mêmes ou se téléporter où bon leur semble à l’aide de leurs Sinistros.",
+            "weapons": [
+                {
+                    "name": "Aiguille Pikuxala",
+                    "icon": "560142271861751838",
+                    "color": "13789928",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/7_945.5c24b37b.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "40",
+                        "pm": "3"
+                    },
+                    "passif": "Quand votre héros ce téléporte, il inflige son *Attaque* à l'adversaire ayant le plus de *Point de Vie*",
+                    "spell": {
+                        "name": "Téléportation Accélérée",
+                        "pa": "3",
+                        "desc": "Téléporte votre héros d'1 case *OU* **AUTOUR** d'un *SINISTRO allié. Il gagne *+1 Armure*"
+                    },
+                    "infos": [
+                        "autour"
+                    ]
+                },{
+                    "name": "Synchronisateur Tako",
+                    "icon": "560164748017270784",
+                    "color": "4380412",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/7_490.1c152dfa.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "40",
+                        "pm": "3"
+                    },
+                    "passif": "*+ 1PA* à votre réserve *de PA* quand vous volez des *PA*",
+                    "spell": {
+                        "name": "Maitrise Temporelle",
+                        "pa": "3",
+                        "desc": "Inflige 2 dégâts.\nRéduit de *1 PA* le coût du prochain sort *Eau* que vous jouez dans ce tour."
+                    }
+                },{
+                    "name": "Catalysateur Pramium",
+                    "icon": "560142591623168020",
+                    "color": "16098851",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/7_614.d165d510.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "39",
+                        "pm": "3"
+                    },
+                    "passif": "Vos **Mécanisme** déclenchent **Explosion (1)** quand votre héros attaque.",
+                    "spell": {
+                        "name": "BOOM",
+                        "pa": "2",
+                        "desc": "Donne *+1 d'Armure* à votre héros. Vos **Mécanisme** déclenchent **Explosion (1)**"
+                    },
+                    "infos": [
+                        "mecanisme", "explosion"
+                    ]
+                    
+                },{
+                    "name": "Sabliaton Jikan",
+                    "icon": "560128607297601536",
+                    "color": "2681343",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/7_366.0a322534.png",
+                    "action": {
+                        "attack": "2",
+                        "life": "38",
+                        "pm": 3
+                    },
+                    "passif": "*+1PA* à votre réserve *de PA* quand vous appliquez **Mouillé**",
+                    "spell": {
+                        "name": "Permutation",
+                        "pa": "5",
+                        "desc": "Inflige 3 dégâts.\nAjoute +2 à votre *jauge élémentaire Eau* si la cible est **Mouillée**"
+                    },
+                    "infos": [
+                        "mouille"
+                    ]
+                },{
+                    "name": "Régulant Gurpapa",
+                    "icon": "560165087680135207",
+                    "color": "10938271",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/7_161.7aa02b7e.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "42",
+                        "pm": "3"
+                    },
+                    "passif": "*+1 PA* à votre réserve *de PA* quand votre héros gagne de l'*Armure*",
+                    "spell": {
+                        "name": "Xélorisation",
+                        "pa": "3",
+                        "desc": "Inflige 1 dégâts.\nVotre héros gagne autant d'*Armure*"
+                    }
+                }
+            ]
+        },{
+            "name": "Iop",
+            "icon": "⚔",
+            "img": "https://www.waven-game.com/build/images/breed/list/picto/1.23fef031.png",
+            "desc": "Leur tempérament impétueux et leur amour pour le combat font des Iops des paladins de l’extrême. Leur devise ? On cogne d’abord, on discute ensuite. Puis on cogne à nouveau !",
+            "weapons": [
+                {
+                    "name": "Justelame Brutale",
+                    "icon": "561134574063583234",
+                    "color": "14678173",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/1_919.441a8180.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "41",
+                        "pm": "3"
+                    },
+                    "passif": "*+1PA+ à votre réserver *de PA* quand vous appliquez **Boueux**.",
+                    "spell": {
+                        "name": "Trancher",
+                        "pa": "3",
+                        "desc": "Inflige 3 dégâts.\n**Coup de grâce**: Ajoute *+2 PA* à votre réserver *de PA*."
+                    },
+                    "infos": [
+                        "boueux", "coup_de_grace"
+                    ]
+                },{
+                    "name": "Glaive Stalaktoss",
+                    "icon": "561134573312802816",
+                    "color": "2681086",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/1_911.798e65b9.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "40",
+                        "pm": "3"
+                    },
+                    "passif": "Votre héros se transforme en **Ombre glacée** quand il a moins de 35% de ses *PV*",
+                    "spell": {
+                        "name": "Stalagmite",
+                        "pa": "3",
+                        "desc": "Inflige 2 dégâts.\nAjoute *+1 PA* à votre réserver *de PA* si la cible est **Mouillée**"
+                    },
+                    "infos": [
+                        "mouille", "ombre_glacee"
+                    ]
+                },{
+                    "name": "Lamarguedon Spectral",
+                    "icon": "561134570309812225",
+                    "color": "15488229",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/1_143.9e5a69f3.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "43",
+                        "pm": "3"
+                    },
+                    "passif": "**Coup de grâce** : Invoque une **Âme spectrale** alliée.",
+                    "spell": {
+                        "name": "Explosion Spectrale",
+                        "pa": "4",
+                        "desc": "Inflige 2 dégâts.\n**Coup de grâce** : Invoque une **Âme spectrale**."
+                    },
+                    "infos": [
+                        "coup_de_grace", "ame_spectrale"
+                    ]
+                },{
+                    "name": "Bouvaloir Orok",
+                    "icon": "561134570955603968",
+                    "color": "11723859",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/1_497.5d70be20.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "42",
+                        "pm": "3"
+                    },
+                    "passif": "*+ 1PA* à votre réserve *de PA* quand votre héros *charge*",
+                    "spell": {
+                        "name": "Charge",
+                        "pa": "3",
+                        "desc": "Votre héros *charge* en ligne et inflige 1 dégâts. +1 dégâts par cases parcourues."
+                    }
+                },{
+                    "name": "Flamboyante Kasaï",
+                    "icon": "561134571559583765",
+                    "color": "16488786",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/1_534.4b4212c0.png",
+                    "action": {
+                        "attack": "4",
+                        "life": "40",
+                        "pm": "3"
+                    },
+                    "passif": "Votre héros gagne *+ 1PM* pour le tour quand vous jouez un sort *Feu*",
+                    "spell": {
+                        "name": "Tournoiement",
+                        "pa": "6",
+                        "desc": "Téléporte votre héros sur une case **Adjacente** à un autre personnage **Huilé** et lui inflige 1 dégâts."
+                    },
+                    "infos": [
+                        "adjacent", "huile"
+                    ]
+                }
+            ]
+        },{
+            "name": "Cra",
+            "icon": "🏹",
+            "img": "https://www.waven-game.com/build/images/breed/list/picto/2.1e774cc3.png",
+            "desc": "« Fierté et précision », telle pourrait être la devise des Crâs. Spécialistes de l’attaque éloignée, ces archers hors pair ont su adapter leur adresse à toute arme à distance, faisant d’eux de redoutables adversaires ou des alliés précieux.",
+            "weapons": [
+                {
+                    "name": "Shiru Shaden",
+                    "icon": "561140895504793600",
+                    "color": "15488997",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/2_191.dd8006af.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "40",
+                        "pm": "3"
+                    },
+                    "passif": "Votre héros gagne 1 **Mire** et recule de 2 cases quand il subit une attaque physique.",
+                    "spell": {
+                        "name": "Shiruken",
+                        "pa": "4",
+                        "desc": "Inflige 2 dégâts.\n**Rembobinage**"
+                    },
+                    "infos": [
+                        "mire", "rembobinage"
+                    ]
+                },{
+                    "name": "Brunelame",
+                    "icon": "561140895760777216",
+                    "color": "15488997",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/2_477.61a42781.png",
+                    "action": {
+                        "attack": "2",
+                        "life": "39",
+                        "pm": "3"
+                    },
+                    "passif": "Vous piochez un sort et votre héros gagne 1 **Mire** quand vous appliquez **Rebond**",
+                    "spell": {
+                        "name": "Bumbond",
+                        "pa": "3",
+                        "desc": "Inflige 1 dégâts.\n**Rebond**"
+                    },
+                    "infos": [
+                        "mire", "rebond"
+                    ]
+                },{
+                    "name": "Expingole",
+                    "icon": "561140895823691790",
+                    "color": "16488271",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/2_998.49208602.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "39",
+                        "pm": "3"
+                    },
+                    "passif": "Votre héros gagne 1 **Mire** et déclenche **Explosion (1)** quand il subit une attaque physique.",
+                    "spell": {
+                        "name": "Décharge Pétulante",
+                        "pa": "6",
+                        "desc": "Inflige 4 dégâts.\n La cible déclenche **Explosion (1)** si elle est **Huilée**"
+                    },
+                    "infos": [
+                        "mire", "explosion", "huile"
+                    ]
+                },{
+                    "name": "Arc Piven",
+                    "icon": "561140895790137354",
+                    "color": "2943487",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/2_846.9803c1de.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "41",
+                        "pm": "3"
+                    },
+                    "passif": "Vote héros gagne 2 **Mires** et se transforme en **Ombre glacée** quand il a moins de 35% de ses *PV*",
+                    "spell": {
+                        "name": "Trait Glace Coeur",
+                        "pa": "5",
+                        "desc": "Inflige 2 dégâts.\nApplique **Gelé (2)** si la cible est **Mouillée**"
+                    },
+                    "infos": [
+                        "mire", "ombre_glacee", "gele", "mouille"
+                    ]
+                },{
+                    "name": "Voldorak Vo",
+                    "icon": "561140895999590415",
+                    "color": "11723859",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/2_953.420f349d.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "41",
+                        "pm": "3"
+                    },
+                    "passif": "Votre héros gagne +1 **Mire** quand vous appliquez **Boueux**.",
+                    "spell": {
+                        "name": "Poing Volant",
+                        "pa": "6",
+                        "desc": "Votre héros inflige 5 dégâts en ligne.\n**Coup de grâce**: *+2 PA* à votre réserve *de PA*"
+                    },
+                    "infos": [
+                        "mire", "boueux", "coup_de_grace"
+                    ]
+                }
+            ]
+        },{
+            "name": "Enirispa",
+            "icon": "💗",
+            "img": "https://www.waven-game.com/build/images/breed/list/picto/3.b40fae65.png",
+            "desc": "Les Eniripsas sont des maîtres de la guérison. Ils concentrent leurs pouvoirs dans de petites fioles qu’ils emportent partout, prêts à soulager les souffrances de leurs alliés ou au contraire, à blesser leurs ennemis.",
+            "weapons": [
+                {
+                    "name": "Gemme Déphasante",
+                    "icon": "561215866792968193",
+                    "color": "15036400",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/3_141.842bb942.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "42",
+                        "pm": "3"
+                    },
+                    "passif": "Votre héros gagne *3 PM* jusqu'à la fin du tour quand il est **Déphasé**.",
+                    "spell": {
+                        "name": "Déphasage",
+                        "pa": "4",
+                        "desc": "Soigne votre héros de *1 PV* et lui confère **Déphasage**."
+                    },
+                    "infos": [
+                        "dephasage"
+                    ]
+                },{
+                    "name": "Pinceau Kokoro",
+                    "icon": "561215866578927633",
+                    "color": "2877951",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/3_967.23df1bb7.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "40",
+                        "pm": "3"
+                    },
+                    "passif": "*+1 PA* à votre réserve *de PA* quand vous jouez un sort de soin.",
+                    "spell": {
+                        "name": "Soins Massifs",
+                        "pa": "6",
+                        "desc": "Soigne tous vos personnages de *3 PV*."
+                    }
+                },{
+                    "name": "Lame Voracius",
+                    "icon": "561215866243383307",
+                    "color": "16488528",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/3_202.5876ee66.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "42",
+                        "pm": "3"
+                    },
+                    "passif": "*+1 PA* à votre réserve *de PA* quand vous jouez un sort **Vol de vie**.",
+                    "spell": {
+                        "name": "Voracité",
+                        "pa": "2",
+                        "desc": "**Vol de vie**: 1."
+                    },
+                    "infos": [
+                        "vol_de_vie"
+                    ]
+                },{
+                    "name": "Ambre Tamashi",
+                    "icon": "561215867254210573",
+                    "color": "11854934",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/3_277.a1122295.png",
+                    "action": {
+                        "attack": "2",
+                        "life": "39",
+                        "pm": "3"
+                    },
+                    "passif": "*+1 PA* ) votre réserve *de PA* quand un **Nocturien** allié est détruit.",
+                    "spell": {
+                        "name": "Explosion Nocturne",
+                        "pa": "2",
+                        "desc": "Téléporte votre héros sur une case **Adjacente** à un **Nocturien** allié pour le faire exploser.\nVotre héros se soigne de *1 PV*."
+                    },
+                    "infos": [
+                        "nocturien", "adjacent"
+                    ]
+                },{
+                    "name": "Scalpel De L'Apostruker",
+                    "icon": "561215867069792256",
+                    "color": "2877951",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/3_637.8a7f6a73.png",
+                    "action": {
+                        "attack": "2",
+                        "life": "38",
+                        "pm": "3"
+                    },
+                    "passif": "Quand votre héros reçoit des soins, il inflige son *AT* à l'ennemi ayant le plus de *PV*",
+                    "spell": {
+                        "name": "Explosion de Soins",
+                        "pa": "5",
+                        "desc": "Votre héros inflige 2 dégâts aux adversaires **Autour** de lui et soigne les alliés de *1 PV*."
+                    },
+                    "infos": [
+                        "autour"
+                    ]
+                }
+            ]
+        },{
+            "name": "Sram",
+            "icon": "💀",
+            "img": "https://www.waven-game.com/build/images/breed/list/picto/6.baf99e94.png",
+            "desc": "Connus pour leur sournoiserie, les disciples de Sram ne reculent devant rien pour arriver à leurs fins, surtout lorsqu’il s’agit de se débarrasser d’un ennemi un peu trop encombrant. Mieux vaut s’en méfier comme de son ombre, mais surtout de la leur…",
+            "weapons": [
+                {
+                    "name": "Ken Kartana",
+                    "icon": "561229013226618900",
+                    "color": "11854934",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/6_182.a1253f02.png",
+                    "action": {
+                        "attack": "4",
+                        "life": "42",
+                        "pm": "3"
+                    },
+                    "passif": "Vos pièges appliquent **Assommé** quand ils sont déclenchés.",
+                    "spell": {
+                        "name": "Piège Rocheux",
+                        "pa": "4",
+                        "desc": "Contruisez un **Piège Rocheux** jusqu'à 3 cases de votre héros.\n**Assemblage**: Votre héros gagne *+1 Armure**."
+                    },
+                    "infos": [
+                        "assomme", "piege_rocheux", "assemblage"
+                    ]
+                },{
+                    "name": "Cisaille Orishi",
+                    "icon": "561229012886749225",
+                    "color": "16488271",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/6_620.1e69be7b.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "39",
+                        "pm": "3"
+                    },
+                    "passif": "Vos pièges déclenchent **Explosion (1)** quand votre héros attaque.",
+                    "spell": {
+                        "name": "Artifices",
+                        "pa": "3",
+                        "desc": "Inflige 1 dégâts.\nVos pièges déclenchent **Explosion (1)**."
+                    },
+                    "infos": [
+                        "explosion"
+                    ]
+                },{
+                    "name": "Ecorcheur Shugen",
+                    "icon": "561229013088075776",
+                    "color": "11854934",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/6_36.bce059b4.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "38",
+                        "pm": "3"
+                    },
+                    "passif": "*+1 PA* à votre réserver *de PA* quand un de vos pièges est déclenché.",
+                    "spell": {
+                        "name": "Traversée",
+                        "pa": "3",
+                        "desc": "Inflige 1 dégât et confère **Déphasage** à votre héros."
+                    },
+                    "infos": [
+                        "dephasage"
+                    ]
+                },{
+                    "name": "Surin Sourokan",
+                    "icon": "561229013385871402",
+                    "color": "15036400",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/6_937.5b6f66c5.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "40",
+                        "pm": "3"
+                    },
+                    "passif": "Repousse son adversaire d'1 case quand il attaque.",
+                    "spell": {
+                        "name": "Sournoiserie Excitante",
+                        "pa": "4",
+                        "desc": "Inflige 3 dégâts.\nJusqu'à la fin du tour, votre héros gagne autant de *PM* que de pièges alliés en jeu."
+                    }
+                },{
+                    "name": "Lame Ouraï",
+                    "icon": "561229013406842880",
+                    "color": "2681343",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/6_830.0b914a4c.png",
+                    "action": {
+                        "attack": "2",
+                        "life": "40",
+                        "pm": "3"
+                    },
+                    "passif": "Votre héros se soigne d'autant de *PV* qu'il a d'*AT* quand un de vos pièges est déclenché.",
+                    "spell": {
+                        "name": "Sdaglactite",
+                        "pa": "5",
+                        "desc": "Inflige 2 dégâts.\nApplique **Gelé (2)** si la cible est **Mouillée**"
+                    },
+                    "infos": [
+                        "gele", "mouille"
+                    ]
+                }
+            ]
+        },{
+            "name": "Sacrieur",
+            "icon": "👊",
+            "img": "https://www.waven-game.com/build/images/breed/list/picto/8.a762431f.png",
+            "desc": "Les Sacrieurs sont des berserkers qui puisent leur force dans la douleur ; cherchant les coups et les blessures, ils seront souvent en première ligne, prêts à verser le premier sang.",
+            "weapons": [
+                {
+                    "name": "Gantares Des Cendres",
+                    "icon": "561229979900444675",
+                    "color": "16488271",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/8_660.a377730b.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "43",
+                        "pm": "3"
+                    },
+                    "passif": "Quand votre héros déclenche **Explosion**, il gagne *2 PM* et vous piochez un sort.",
+                    "spell": {
+                        "name": "Immolation",
+                        "pa": "2",
+                        "desc": "Inflige 1 dégats.\n**Agonie**: Votre héros déclenche **Explosion (1)**"
+                    },
+                    "infos": [
+                        "explosion", "agonie"
+                    ]
+                },{
+                    "name": "Darde Kan",
+                    "icon": "561229982437736458",
+                    "color": "2681343",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/8_381.783c7506.png",
+                    "action": {
+                        "attack": "2",
+                        "life": "38",
+                        "pm": "3"
+                    },
+                    "passif": "Ajoute *+1 PA* à votre réserve *de PA* quand votre héros attaque.",
+                    "spell": {
+                        "name": "Oeil Tatoué",
+                        "pa": "7",
+                        "desc": "Confère 3 **Yeux Tatoués** à votre héros."
+                    },
+                    "infos": [
+                        "yeux_tatoues", "aura"
+                    ]
+                },{
+                    "name": "Bâton Tonfavik",
+                    "icon": "561229981590618122",
+                    "color": "11789396",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/8_492.e3c544a1.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "43",
+                        "pm": "3"
+                    },
+                    "passif": "Quand vous jouez un compagnon, il gagne autant d'*AR* que que votre héros a d'*AT*.",
+                    "spell": {
+                        "name": "Foulure Motivante",
+                        "pa": "4",
+                        "desc": "Inflige 3 dégâts.\n**Agonie**: Donne *+2 PM* à votre héros jusqu'à la fin du tour."
+                    },
+                    "infos": [
+                        "agonie"
+                    ]
+                },{
+                    "name": "Ombraden",
+                    "icon": "561229977585188887",
+                    "color": "15488485",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/8_864.46158173.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "43",
+                        "pm": "3"
+                    },
+                    "passif": "Ajoute *+1 PA* à votre réserve *de PA* quand un sort déplace votre héros.",
+                    "spell": {
+                        "name": "Sillage",
+                        "pa": "4",
+                        "desc": "Déplace votre héros de 2 cases en ligne.\nInflige 2 dégâts aux personnages traversés."
+                    }
+                },{
+                    "name": "Pilobouli",
+                    "icon": "561229983289180161",
+                    "color": "15488485",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/8_43.d50dcbc5.png",
+                    "action": {
+                        "attack": "2",
+                        "life": "39",
+                        "pm": "3"
+                    },
+                    "passif": "Quand un adversaire est repoussé ou attiré, il subit 1 dégâts.",
+                    "spell": {
+                        "name": "Tornadoulet",
+                        "pa": "4",
+                        "desc": "Votre héros inflige 2 dégâts aux personnages **Adjacents** et repousse les adversaires de 2 cases."
+                    },
+                    "infos": [
+                        "adjacent"
+                    ]
+                }
+            ]
+        },{
+            "name": "Osamodas",
+            "icon": "🐥",
+            "img": "https://www.waven-game.com/build/images/breed/list/picto/11.dba74a68.png",
+            "desc": "Les Osamodas sont réputés pour être des dompteurs nés. Leur empathie pour les créatures de la nature est si forte qu’eux-mêmes sont dotés d’un côté animal qui fait tout leur charme, mais aussi toute leur dangerosité.",
+            "weapons": [
+                {
+                    "name": "Bâton De Berger",
+                    "icon": "561235801720094721",
+                    "color": "11854933",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/11_196.4e2d5512.png",
+                    "action": {
+                        "attack": "2",
+                        "life": "43",
+                        "pm": "3"
+                    },
+                    "passif": "Piochez 1 sort quand vous invoquez un **Bébé Bouftou**.",
+                    "spell": {
+                        "name": "Invocation de Bébé Bouftou",
+                        "pa": "3",
+                        "desc": "Invoque un **Bébé Bouftou** sur un case **Adjancente** à votre héros."
+                    },
+                    "infos": [
+                        "adjacent", "bouftou", "lien_bestial"
+                    ]
+                },{
+                    "name": "Bâton Flaqueux",
+                    "icon": "561235801053331468",
+                    "color": "2159100",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/11_625.0c425285.png",
+                    "action": {
+                        "attack": "2",
+                        "life": "40",
+                        "pm": "3"
+                    },
+                    "passif": "*+1 PA* à votre réserve *de PA* quand un Flaqueux allié est détruit.",
+                    "spell": {
+                        "name": "Invocation de Bébé Flaqueux",
+                        "pa": "3",
+                        "desc": "Invoque un **Bébé Flaqueux jusqu'à 2 cases de votre héros."
+                    },
+                    "infos": [
+                        "flaqueux", "lien_bestial"
+                    ]
+                },{
+                    "name": "Brindille",
+                    "icon": "561235801334349827",
+                    "color": "15488229",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/11_995.d28b51c3.png",
+                    "action": {
+                        "attack": "2",
+                        "life": "38",
+                        "pm": "3"
+                    },
+                    "passif": "Place votre sort d'invocation dans votre main quand votre héros attaque.",
+                    "spell": {
+                        "name": "Invocation de Bébé Tofu",
+                        "pa": "3",
+                        "desc": "Invoque un **Bébé Tofu** jusqu'à 5 cases de votre héros."
+                    },
+                    "infos": [
+                        "tofu", "lien_bestial"
+                    ]
+                },{
+                    "name": "Bâton Craqueleur",
+                    "icon": "561235801120178197",
+                    "color": "11854933",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/11_75.3d9e1fc2.png",
+                    "action": {
+                        "attack": "3",
+                        "life": "45",
+                        "pm": "3"
+                    },
+                    "passif": "*+1 PA* à votre réserver *de PA* quand vous appliquez **Assommé",
+                    "spell": {
+                        "name": "Invocation de Bébé Craqueleur",
+                        "pa": "4",
+                        "desc": "Invoque un **Bébé Craqueleur** sur une case **Adjacente** à votre héros."
+                    },
+                    "infos": [
+                        "assomme", "craqueleur", "adjacent", "lien_bestial", "boueux"
+                    ]
+                },{
+                    "name": "Bâton Prespic",
+                    "icon": "561235801929940992",
+                    "color": "16488271",
+                    "img": "https://www.waven-game.com/build/images/heroes/weapon/11_677.9d37a17d.png",
+                    "action": {
+                        "attack": "2",
+                        "life": "40",
+                        "pm": "3"
+                    },
+                    "passif": "Inflige son *AT* quand il subit un attaque physique.",
+                    "spell": {
+                        "name": "Invocation de Bébé Presic",
+                        "pa": "4",
+                        "desc": "Invoque un **Bébé Prespic** jusqu'à 2 cases de votre héros."
+                    },
+                    "infos": [
+                        "prespic", "lien_bestial", "autour"
+                    ]
+                }
+            ]
+        }
+    ]
+}
