@@ -22,15 +22,22 @@ client.on('message', async msg => {
 
     // Send Base Message
     content.sendBaseMessage(Discord, msg);
-    msg.delete();
+
+    if (msg.deletable) msg.delete();
+
+    let date = new Date();
+    console.log(`${date.getDate()}/${date.getMonth() + 1} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()} - ${msg.author.username} a ping le bot depuis ${msg.guild ? "le discord: " + msg.guild.name : "ses messages privés"}`);
 });
 
 client.on('raw', async info => {
     if (info.t !== "MESSAGE_REACTION_ADD") return;
-    await client.users.get(info.d.user_id).createDM();
-    let channel = await client.channels.get(info.d.channel_id),
-        message = await channel.fetchMessage(info.d.message_id),
-        user = await client.users.get(info.d.user_id),
+
+    let user = await client.users.get(info.d.user_id),
+        channel = await client.channels.get(info.d.channel_id)
+
+    if (!channel) channel = await client.users.get(info.d.user_id).createDM();
+    
+    let message = await channel.fetchMessage(info.d.message_id),
         emoji = info.d.emoji,
         reaction = {channel: channel, message: message, user: user, emoji: emoji};
 
@@ -50,6 +57,9 @@ client.on('raw', async info => {
 
     // Is Weapon Icon ?
     content.isWeapon(Discord, client, reaction);
+
+    let date = new Date();
+    console.log(`${date.getDate()}/${date.getMonth() + 1} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()} - ${user.username} a utilisé la reaction ${emoji.name}`);
 })
 
 client.login(process.env.TOKEN);

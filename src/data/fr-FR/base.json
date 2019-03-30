@@ -4,7 +4,7 @@
     "icon_large": "https://www.waven-game.com/build/images/download/logo.454faa0c.png",
     "desc": "Cette interface vous permet de sélectionner les héros/armes qui vous intéressent et avoir accès aux informations de celle-ci. Vous avez la possibilité de lancer plusieurs interfaces à la fois pour faire des comparaisons, etc.. Si vous rencontrez des problèmes avec le bot envoyez un message privé à @Shoto#7084.",
     "back-icon": "◀",
-    "id-guild-icon": "558345582834614282",
+    "id-guild-icon": "561490971850833933",
     "footer": {
         "base": "Sélection de personnage | Version Beta",
         "hero": "Héro",
@@ -147,7 +147,7 @@
             "weapons": [
                 {
                     "name": "Aiguille Pikuxala",
-                    "icon": "560142271861751838",
+                    "icon": "561492757944860703",
                     "color": "13789928",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/7_945.5c24b37b.png",
                     "action": {
@@ -166,7 +166,7 @@
                     ]
                 },{
                     "name": "Synchronisateur Tako",
-                    "icon": "560164748017270784",
+                    "icon": "561492757802385420",
                     "color": "4380412",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/7_490.1c152dfa.png",
                     "action": {
@@ -182,7 +182,7 @@
                     }
                 },{
                     "name": "Catalysateur Pramium",
-                    "icon": "560142591623168020",
+                    "icon": "561492757823094784",
                     "color": "16098851",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/7_614.d165d510.png",
                     "action": {
@@ -202,7 +202,7 @@
                     
                 },{
                     "name": "Sabliaton Jikan",
-                    "icon": "560128607297601536",
+                    "icon": "561492757974351873",
                     "color": "2681343",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/7_366.0a322534.png",
                     "action": {
@@ -221,7 +221,7 @@
                     ]
                 },{
                     "name": "Régulant Gurpapa",
-                    "icon": "560165087680135207",
+                    "icon": "561492757764374529",
                     "color": "10938271",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/7_161.7aa02b7e.png",
                     "action": {
@@ -245,7 +245,7 @@
             "weapons": [
                 {
                     "name": "Justelame Brutale",
-                    "icon": "561134574063583234",
+                    "icon": "561492182322905098",
                     "color": "14678173",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/1_919.441a8180.png",
                     "action": {
@@ -264,7 +264,7 @@
                     ]
                 },{
                     "name": "Glaive Stalaktoss",
-                    "icon": "561134573312802816",
+                    "icon": "561492182343614475",
                     "color": "2681086",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/1_911.798e65b9.png",
                     "action": {
@@ -283,7 +283,7 @@
                     ]
                 },{
                     "name": "Lamarguedon Spectral",
-                    "icon": "561134570309812225",
+                    "icon": "561492182209396746",
                     "color": "15488229",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/1_143.9e5a69f3.png",
                     "action": {
@@ -302,7 +302,7 @@
                     ]
                 },{
                     "name": "Bouvaloir Orok",
-                    "icon": "561134570955603968",
+                    "icon": "561492182192750592",
                     "color": "11723859",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/1_497.5d70be20.png",
                     "action": {
@@ -318,7 +318,7 @@
                     }
                 },{
                     "name": "Flamboyante Kasaï",
-                    "icon": "561134571559583765",
+                    "icon": "561492182226305053",
                     "color": "16488786",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/1_534.4b4212c0.png",
                     "action": {
@@ -345,7 +345,7 @@
             "weapons": [
                 {
                     "name": "Shiru Shaden",
-                    "icon": "561140895504793600",
+                    "icon": "561491837768957952",
                     "color": "15488997",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/2_191.dd8006af.png",
                     "action": {
@@ -364,7 +364,7 @@
                     ]
                 },{
                     "name": "Brunelame",
-                    "icon": "561140895760777216",
+                    "icon": "561491837169303554",
                     "color": "15488997",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/2_477.61a42781.png",
                     "action": {
@@ -383,7 +383,7 @@
                     ]
                 },{
                     "name": "Expingole",
-                    "icon": "561140895823691790",
+                    "icon": "561491837869621268",
                     "color": "16488271",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/2_998.49208602.png",
                     "action": {
@@ -402,7 +402,7 @@
                     ]
                 },{
                     "name": "Arc Piven",
-                    "icon": "561140895790137354",
+                    "icon": "561491837148332043",
                     "color": "2943487",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/2_846.9803c1de.png",
                     "action": {
@@ -421,7 +421,7 @@
                     ]
                 },{
                     "name": "Voldorak Vo",
-                    "icon": "561140895999590415",
+                    "icon": "561491837953638400",
                     "color": "11723859",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/2_953.420f349d.png",
                     "action": {
@@ -448,7 +448,7 @@
             "weapons": [
                 {
                     "name": "Gemme Déphasante",
-                    "icon": "561215866792968193",
+                    "icon": "561492023392075797",
                     "color": "15036400",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/3_141.842bb942.png",
                     "action": {
@@ -467,7 +467,7 @@
                     ]
                 },{
                     "name": "Pinceau Kokoro",
-                    "icon": "561215866578927633",
+                    "icon": "561492023992123402",
                     "color": "2877951",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/3_967.23df1bb7.png",
                     "action": {
@@ -483,7 +483,7 @@
                     }
                 },{
                     "name": "Lame Voracius",
-                    "icon": "561215866243383307",
+                    "icon": "561492023333355532",
                     "color": "16488528",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/3_202.5876ee66.png",
                     "action": {
@@ -502,7 +502,7 @@
                     ]
                 },{
                     "name": "Ambre Tamashi",
-                    "icon": "561215867254210573",
+                    "icon": "561492023727882243",
                     "color": "11854934",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/3_277.a1122295.png",
                     "action": {
@@ -521,7 +521,7 @@
                     ]
                 },{
                     "name": "Scalpel De L'Apostruker",
-                    "icon": "561215867069792256",
+                    "icon": "561492024038129677",
                     "color": "2877951",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/3_637.8a7f6a73.png",
                     "action": {
@@ -548,7 +548,7 @@
             "weapons": [
                 {
                     "name": "Ken Kartana",
-                    "icon": "561229013226618900",
+                    "icon": "561492574431346698",
                     "color": "11854934",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/6_182.a1253f02.png",
                     "action": {
@@ -567,7 +567,7 @@
                     ]
                 },{
                     "name": "Cisaille Orishi",
-                    "icon": "561229012886749225",
+                    "icon": "561492574507106305",
                     "color": "16488271",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/6_620.1e69be7b.png",
                     "action": {
@@ -586,7 +586,7 @@
                     ]
                 },{
                     "name": "Ecorcheur Shugen",
-                    "icon": "561229013088075776",
+                    "icon": "561492574431608842",
                     "color": "11854934",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/6_36.bce059b4.png",
                     "action": {
@@ -605,7 +605,7 @@
                     ]
                 },{
                     "name": "Surin Sourokan",
-                    "icon": "561229013385871402",
+                    "icon": "561492574746050570",
                     "color": "15036400",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/6_937.5b6f66c5.png",
                     "action": {
@@ -621,7 +621,7 @@
                     }
                 },{
                     "name": "Lame Ouraï",
-                    "icon": "561229013406842880",
+                    "icon": "561492575773655040",
                     "color": "2681343",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/6_830.0b914a4c.png",
                     "action": {
@@ -648,7 +648,7 @@
             "weapons": [
                 {
                     "name": "Gantares Des Cendres",
-                    "icon": "561229979900444675",
+                    "icon": "561492383448039435",
                     "color": "16488271",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/8_660.a377730b.png",
                     "action": {
@@ -667,7 +667,7 @@
                     ]
                 },{
                     "name": "Darde Kan",
-                    "icon": "561229982437736458",
+                    "icon": "561492383682789407",
                     "color": "2681343",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/8_381.783c7506.png",
                     "action": {
@@ -686,7 +686,7 @@
                     ]
                 },{
                     "name": "Bâton Tonfavik",
-                    "icon": "561229981590618122",
+                    "icon": "561492383871795200",
                     "color": "11789396",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/8_492.e3c544a1.png",
                     "action": {
@@ -705,7 +705,7 @@
                     ]
                 },{
                     "name": "Ombraden",
-                    "icon": "561229977585188887",
+                    "icon": "561492383426936873",
                     "color": "15488485",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/8_864.46158173.png",
                     "action": {
@@ -721,7 +721,7 @@
                     }
                 },{
                     "name": "Pilobouli",
-                    "icon": "561229983289180161",
+                    "icon": "561492383112626197",
                     "color": "15488485",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/8_43.d50dcbc5.png",
                     "action": {
@@ -748,7 +748,7 @@
             "weapons": [
                 {
                     "name": "Bâton De Berger",
-                    "icon": "561235801720094721",
+                    "icon": "561491624438267925",
                     "color": "11854933",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/11_196.4e2d5512.png",
                     "action": {
@@ -767,7 +767,7 @@
                     ]
                 },{
                     "name": "Bâton Flaqueux",
-                    "icon": "561235801053331468",
+                    "icon": "561491624878931969",
                     "color": "2159100",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/11_625.0c425285.png",
                     "action": {
@@ -786,7 +786,7 @@
                     ]
                 },{
                     "name": "Brindille",
-                    "icon": "561235801334349827",
+                    "icon": "561491626888003614",
                     "color": "15488229",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/11_995.d28b51c3.png",
                     "action": {
@@ -805,7 +805,7 @@
                     ]
                 },{
                     "name": "Bâton Craqueleur",
-                    "icon": "561235801120178197",
+                    "icon": "561491624824274946",
                     "color": "11854933",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/11_75.3d9e1fc2.png",
                     "action": {
@@ -824,7 +824,7 @@
                     ]
                 },{
                     "name": "Bâton Prespic",
-                    "icon": "561235801929940992",
+                    "icon": "561491625130328074",
                     "color": "16488271",
                     "img": "https://www.waven-game.com/build/images/heroes/weapon/11_677.9d37a17d.png",
                     "action": {
